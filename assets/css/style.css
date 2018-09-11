@@ -1,3 +1,7 @@
+a{
+	text-decoration: none !important;
+}
+
 .overlay {
 	background-color: rgba(3, 3, 3, 0.5);
 	overflow: hidden;
@@ -63,6 +67,9 @@
 	color: #fff;
 	margin-bottom: 10%;
 }
+.banner-item{
+	padding-bottom: 30px;
+}
 .bl-item{
 	float: left;
 }
@@ -91,6 +98,26 @@
 	color: #b6b3b3;
 	font-size: 14px;
 	text-align: center;
+}
+.banner .read-box {
+	width: 20%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 10%;
+}
+.banner .read-box .readmore {
+	display: block;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 25px;
+	color: #6e4a23;
+	font-size: 16px;
+}
+.banner .read-box .readmore:hover {
+	background-color: #ff740d;
+	color: #fff;
 }
 .news {
 	width: 100%;

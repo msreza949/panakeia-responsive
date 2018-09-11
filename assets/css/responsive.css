@@ -56,7 +56,9 @@
 	.banner .sub-title {
 		font-size: 20px;
 	}
-
+.banner .read-box {
+	width: 40%;
+}
 	.bl-item .item-img {
 		width: 150px;
 	}
@@ -83,7 +85,9 @@
 }
 @media (max-width: 500px){
 	
-
+.banner .read-box {
+	width: 60%;
+}
 	.banner .section-title {
 		font-size: 30px;
 	}
